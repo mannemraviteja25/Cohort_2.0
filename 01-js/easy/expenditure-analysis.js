@@ -23,7 +23,6 @@ function calculateTotalSpentByCategory(transactions) {
     totalSpent: category_expenditure[current_category],
   }));
 
-  console.log(results_array);
   return results_array;
 }
 
